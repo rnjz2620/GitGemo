@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Validating User Login(failed)">
+    <classes>
+      <class name="academy.HomePage">
+        <methods>
+          <include name="teardown"/>
+          <include name="basePageNavigation" invocation-numbers="0"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- academy.HomePage -->
+    </classes>
+  </test> <!-- Validating User Login(failed) -->
+  <test thread-count="5" name="validating title of the page(failed)">
+    <classes>
+      <class name="qaclickacademy.validateTitle">
+        <methods>
+          <include name="baseValidateTitle"/>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- qaclickacademy.validateTitle -->
+    </classes>
+  </test> <!-- validating title of the page(failed) -->
+  <test thread-count="5" name="validating navigation bar of the page(failed)">
+    <classes>
+      <class name="qaclickacademy.validateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- qaclickacademy.validateNavigationBar -->
+    </classes>
+  </test> <!-- validating navigation bar of the page(failed) -->
+  <test thread-count="5" name="Validating User Login1(failed)">
+    <classes>
+      <class name="qaclickacademy.HomePage1">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+          <include name="home1PageNavigation"/>
+        </methods>
+      </class> <!-- qaclickacademy.HomePage1 -->
+    </classes>
+  </test> <!-- Validating User Login1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
