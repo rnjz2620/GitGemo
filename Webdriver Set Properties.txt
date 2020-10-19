@@ -1,3 +1,0 @@
-.pull-right > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1)
-By signin = By.cssSelector("a[herf(*='sign_in']");
-By signin = By.cssSelector("a[herf(*='http://qaclickacademy.usefedora.com/sign_in']");
