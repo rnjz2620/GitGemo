@@ -1,7 +1,0 @@
-Given: An account with sufficient balance wwho does not have credit card
-When: I navigate to Credit Card payment section
-Then: You don't have to access as your are error message
-
-Given: An account with sufficient balance wwho does not have credit card
-When: I navigate to Credit Card payment section and amount
-Then: You don't have to access as your are error message
